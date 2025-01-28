@@ -58,17 +58,17 @@ module.exports = {
     experience: [
       {
         name: 'CSU, Office of Chancellor',
-        subText: 'Full-Stack Engineer, Jan 2023 - Dec 2024',
+        subText: 'Full-Stack Engineer, Full-time during breaks & part-time during school, Jan 2023 - Dec 2024',
         link: 'https://www.calstate.edu/',
       },
       {
         name: 'Hapii Lab',
-        subText: 'HCI Student Researcher, Jan 2024 - Dec 2024',
+        subText: 'HCI Student Researcher, Part-time, Jan 2024 - Dec 2024',
         link: 'https://hapii-lab.github.io/',
       },
       {
         name: 'Codelink',
-        subText: 'Product Designer , Jul 2018 - Apr 2019',
+        subText: 'Product Designer, Full-time, Mar 2018 - Apr 2019',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],

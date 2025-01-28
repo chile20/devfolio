@@ -50,11 +50,13 @@ export const pageQuery = graphql`
         resume
         projects {
           name
+          subText
           description
           link
         }
         experience {
           name
+          subText
           description
           link
         }

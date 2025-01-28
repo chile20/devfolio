@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Chi Le',
     // Main Site Title
-    title: `Chi Le | Full-stack Developer & Product Designer`,
+    title: `Chi Le | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Full-stack Developer & Product Designer`,
+    description: `Software Engineer | Long Beach, California`,
     // Optional: Twitter account handle
     author: `@rfitzio`,
     // Optional: Github account URL
@@ -17,21 +17,36 @@ module.exports = {
     // Optional: LinkedIn account URL
     resume: `https://docs.google.com/document/d/1xbpChb1wrL2XYjrMRZmaCzC64fAaNar1VBXroo46WTY/export?format=pdf`,
     // Content of the About Me section
-    about: `Full-stack Developer and Product Designer with 3 years of experience creating user-focused, accessible, and high-performing web solutions. Skilled in full-stack development, UI/UX design, with expertise in frameworks like React.js and Laravel. Passionate about accessibility and building scalable, inclusive technology.`,
+    about: 
+    `Hello, I’m Chi (pronounced /chEE/). I’m a Software Engineer with 3 years of experience specializing in front-end development, backed by a strong foundation in UI/UX design and Human-Computer Interaction. I’m detail-oriented, quick to learn new technologies, and passionate about building scalable, user-friendly solutions that prioritize accessibility. In my free time, I enjoy reading and playing video games.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Resume Job Matcher',
-        subText: 'Python / Flask | TailwindCSS | OpenAI API',
+        name: 'CSU Student Success Dashboard',
+        subText: 'PHP (Laravel) | RESTful APIs | JavaScript (jQuery, Highcharts) | Bootstrap | MySQL',
+        description: 
+          'A private dashboard solution used by educators across 23 CSU campuses and partner instituitions across the U.S. to identify achievement gaps and promote equity in student outcomes.',
+        link: 'https://info.successdashboard.org/index.html'  
+        },
+      {
+        name: 'AI Resume Job Matcher',
+        subText: 'Python (Flask) | TailwindCSS | OpenAI API',
         description:
-          'A web-based tool that leverages OpenAI API to help users tailor their resumes to specific job description.',
+          'A web-based tool that uses AI to help users tailor their resumes to specific job description. It was incorporated into employer-led meetings to demonstrate the potential of AI-driven solutions.',
         link: 'https://github.com/chile20/resume-job-matcher',
       },
       {
-        name: 'Crochet App',
-        subText: 'Dart / Flutter | Flutter Hive',
+        name: 'Info Crawler and Search Engine',
+        subText: 'Python (scikit-learn, scipy, panda, other Python libraries) | MongoDB',
         description:
-          'An Android application designed to help knitters and crocheters keep track of their projects by incrementing patterns and managing progress efficiently.',
+          'A CLI-based search engine featuring a custom-built web crawler, efficient indexing, and a robust querying system. Built with advanced Python libraries and a NoSQL database for best performance.',
+        link: 'https://github.com/kennysantanu/Web-Crawler-Search-Engine',
+      },
+      {
+        name: 'Crochet Counter App',
+        subText: 'Dart (Flutter) | Flutter Hive',
+        description:
+          'A user-friendly Android application designed to help crocheters keep track of their progress by incrementing patterns and managing projects efficiently. Built with feedback from crochet communities on Reddit.',
         link: 'https://github.com/chile20/crochet-app',
       },
       {
@@ -43,12 +58,12 @@ module.exports = {
     experience: [
       {
         name: 'CSU, Office of Chancellor',
-        subText: 'Full-Stack Developer, Jan 2023 - Dec 2024',
+        subText: 'Full-Stack Engineer, Jan 2023 - Dec 2024',
         link: 'https://www.calstate.edu/',
       },
       {
         name: 'Hapii Lab',
-        subText: 'HCI Researcher, Jan 2024 - Dec 2024',
+        subText: 'HCI Student Researcher, Jan 2024 - Dec 2024',
         link: 'https://hapii-lab.github.io/',
       },
       {
@@ -66,10 +81,10 @@ module.exports = {
       },
       {
         name: 'Databases',
-        description: 'MySQL, PostreSQL, MongoDB',
+        description: 'MySQL, PostgreSQL, MongoDB',
       },
       {
-        name: 'Other',
+        name: 'Others',
         description:
           'Agile/Scrum, Docker, Postman, Git, Jira, BitBucket, Figma, Sketch',
       },

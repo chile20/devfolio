@@ -14,6 +14,8 @@ module.exports = {
     github: `https://github.com/chile20`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/chile20/`,
+    // Optional: LinkedIn account URL
+    resume: `https://docs.google.com/document/d/1xbpChb1wrL2XYjrMRZmaCzC64fAaNar1VBXroo46WTY/export?format=pdf`,
     // Content of the About Me section
     about: `Full-stack Developer and Product Designer with 3 years of experience creating user-focused, accessible, and high-performing web solutions. Skilled in full-stack development, UI/UX design, with expertise in frameworks like React.js and Laravel. Passionate about accessibility and building scalable, inclusive technology`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.

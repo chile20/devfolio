@@ -57,18 +57,18 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'CSU, Office of Chancellor',
-        subText: 'Full-Stack Engineer, Full-time during breaks & part-time during school, Jan 2023 - Dec 2024',
+        name: 'Full-Stack Engineer at CSU, Office of Chancellor',
+        subText: 'Full-time during breaks & part-time during school, Jan 2023 - Dec 2024',
         link: 'https://www.calstate.edu/',
       },
       {
-        name: 'Hapii Lab',
-        subText: 'HCI Student Researcher, Part-time, Jan 2024 - Dec 2024',
+        name: 'HCI Student Researcher at Hapii Lab',
+        subText: 'Part-time, Jan 2024 - Dec 2024',
         link: 'https://hapii-lab.github.io/',
       },
       {
-        name: 'Codelink',
-        subText: 'Product Designer, Full-time, Mar 2018 - Apr 2019',
+        name: 'Product Designer at Codelink',
+        subText: 'Full-time, Mar 2018 - Apr 2019',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],

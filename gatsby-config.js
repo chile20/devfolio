@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Chi Le | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Software Engineer | Long Beach, California`,
+    description: `Software Engineer | Long Beach, California | Authorized to work in the U.S without sponsorship`,
     // Optional: Twitter account handle
     author: `@rfitzio`,
     // Optional: Github account URL
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/chile20/`,
     // Optional: LinkedIn account URL
-    resume: `https://docs.google.com/document/d/1xbpChb1wrL2XYjrMRZmaCzC64fAaNar1VBXroo46WTY/export?format=pdf`,
+    resume: `https://drive.google.com/uc?export=download&id=1zyHbkTWiE6LFJFw_smqnTdW4QkfkiSTZ`,
     // Content of the About Me section
     about: 
     `Hello, I’m Chi (pronounced /chEE/). I’m a Software Engineer with 3 years of experience specializing in front-end development, backed by a strong foundation in UI/UX design and Human-Computer Interaction. I’m detail-oriented, quick to learn new technologies, and passionate about building scalable, user-friendly solutions that prioritize accessibility. In my free time, I enjoy reading and playing video games.`,
@@ -77,16 +77,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'Java, Javascript, PHP, Python, Dart, Laravel, React.js, Django, Flask, HighchartJS, TailwindCSS',
+          'PHP, Dart, Java, Python, JavaScript, HTML/CSS, Laravel, Blade, Flutter, React, Node.js, Flask, Highcharts.js, Meilisearch, TailwindCSS',
       },
       {
         name: 'Databases',
-        description: 'MySQL, PostgreSQL, MongoDB',
+        description: 'SQL (PostgreSQL, MySQL), NoSQL (MongoDB)',
       },
       {
         name: 'Others',
         description:
-          'Agile/Scrum, Docker, Postman, Git, Jira, BitBucket, Figma, Sketch',
+          'Agile/Scrum, Git, Docker, Jira, BitBucket, Figma, Sketch, Postman, VS Code, PyCharm, IntelliJ, PhpStorm',
       },
     ],
   },

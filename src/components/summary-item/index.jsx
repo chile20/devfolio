@@ -6,7 +6,7 @@ const classes = {
   name: 'font-semibold text-gray-900',
   subText: 'font-semibold text-sm text-blue-700 uppercase',
   description: 'text-md text-gray-600 font-light',
-  link: 'ml-2 text-blue-700 hover:underline',
+  link: 'ml-2 font-semibold text-blue-700 hover:underline',
 };
 
 const SummaryItem = ({ name, subText = null, description = null, link = false, demoLink = false, githubLink = false, internal = false }) => {
@@ -31,7 +31,7 @@ const SummaryItem = ({ name, subText = null, description = null, link = false, d
         {githubLink && (
           <span className={classes.link}>
             <a href={githubLink} rel="noopener noreferrer">
-              [Github]
+              [Source Code]
             </a>
           </span>
         )}

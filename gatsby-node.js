@@ -74,6 +74,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       author: String
       github: String
       linkedin: String
+      behance: String
       resume: String
       about: String
       projects: [SectionItem]
@@ -85,7 +86,9 @@ exports.createSchemaCustomization = ({ actions }) => {
       name: String!
       subText: String
       description: String
-      link: String!
+      link: String
+      githubLink: String
+      demoLink: String
     }
 
     type MarkdownRemark implements Node {

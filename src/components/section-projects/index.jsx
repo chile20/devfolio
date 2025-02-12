@@ -15,8 +15,16 @@ const SectionProjects = ({ projects }) => {
           subText={project.subText}
           description={project.description}
           link={project.link}
+          githubLink={project.githubLink}
+          demoLink={project.demoLink}
         />
       ))}
+
+<a href="https://www.behance.net/chilele"
+   class="font-semibold text-gray-900 hover:underline inline-flex items-center">
+  Check out my professional UI/UX projects on Behance <span class="ml-1">→</span>
+</a>
+
     </Section>
   );
 };

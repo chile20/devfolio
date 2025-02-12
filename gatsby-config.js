@@ -14,8 +14,10 @@ module.exports = {
     github: `https://github.com/chile20`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/chile20/`,
-    // Optional: LinkedIn account URL
+    // Optional: Resume download
     resume: `https://drive.google.com/uc?export=download&id=1zyHbkTWiE6LFJFw_smqnTdW4QkfkiSTZ`,
+    // Optional: Behance account URL
+    behance: `https://www.behance.net/chilele`,
     // Content of the About Me section
     about: 
     `Hello, I’m Chi (pronounced /chEE/). I’m a Software Engineer with 3 years of experience specializing in front-end development, backed by a strong foundation in UI/UX design and Human-Computer Interaction. I’m detail-oriented, quick to learn new technologies, and passionate about building scalable, user-friendly solutions that prioritize accessibility. In my free time, I enjoy reading and playing video games.`,
@@ -23,53 +25,50 @@ module.exports = {
     projects: [
       {
         name: 'CSU Student Success Dashboard',
-        subText: 'PHP (Laravel) | RESTful APIs | JavaScript (jQuery, Highcharts) | Bootstrap | MySQL',
+        subText: 'PHP (Laravel) | RESTful APIs | JavaScript (jQuery, Highcharts) | Bootstrap | Meilisearch | MySQL',
         description: 
           'A private dashboard solution used by educators across 23 CSU campuses and partner instituitions across the U.S. to identify achievement gaps and promote equity in student outcomes.',
-        link: 'https://info.successdashboard.org/index.html'  
-        },
+        demoLink: 'https://public.dashboards.calstate.edu/csu-by-the-numbers/historical-grad-rates#',
+      },
       {
         name: 'AI Resume Job Matcher',
         subText: 'Python (Flask) | TailwindCSS | OpenAI API',
         description:
           'A web-based tool that uses AI to help users tailor their resumes to specific job description. It was incorporated into employer-led meetings to demonstrate the potential of AI-driven solutions.',
-        link: 'https://github.com/chile20/resume-job-matcher',
+        githubLink: 'https://github.com/chile20/resume-job-matcher',
+        demoLink: 'https://resume-matcher-ai-chile-7293abcc.koyeb.app/'
       },
       {
         name: 'Info Crawler and Search Engine',
         subText: 'Python (scikit-learn, scipy, panda, other Python libraries) | MongoDB',
         description:
           'A CLI-based search engine featuring a custom-built web crawler, efficient indexing, and a robust querying system. Built with advanced Python libraries and a NoSQL database for best performance.',
-        link: 'https://github.com/kennysantanu/Web-Crawler-Search-Engine',
+        githubLink: 'https://github.com/kennysantanu/Web-Crawler-Search-Engine',
       },
       {
         name: 'Crochet Counter App',
         subText: 'Dart (Flutter) | Flutter Hive',
         description:
           'A user-friendly Android application designed to help crocheters keep track of their progress by incrementing patterns and managing projects efficiently. Built with feedback from crochet communities on Reddit.',
-        link: 'https://github.com/chile20/crochet-app',
-      },
-      {
-        name: 'Check out my UI/UX designs on Behance',
-        link: 'https://www.behance.net/chilele',
+        githubLink: 'https://github.com/chile20/crochet-app',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Full-Stack Engineer at CSU, Office of Chancellor',
-        subText: 'Full-time during breaks & part-time during school, Jan 2023 - Dec 2024',
+        name: 'Full-Stack Developer at CSU, Office of Chancellor',
+        subText: 'Full-time during school breaks & part-time during school, Jan 2023 - Dec 2024 (2 yr)',
         link: 'https://www.calstate.edu/',
       },
       {
         name: 'HCI Student Researcher at Hapii Lab',
-        subText: 'Part-time, Jan 2024 - Dec 2024',
+        subText: 'Part-time, Jan 2024 - Dec 2024 (1 yr)',
         link: 'https://hapii-lab.github.io/',
       },
       {
         name: 'Product Designer at Codelink',
-        subText: 'Full-time, Mar 2018 - Apr 2019',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        subText: 'Full-time, Mar 2018 - Apr 2019 (1 yr 1 mo)',
+        link: 'https://www.codelink.io/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.

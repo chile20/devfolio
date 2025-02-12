@@ -6,9 +6,10 @@ const classes = {
   name: 'font-semibold text-gray-900',
   subText: 'font-semibold text-sm text-blue-700 uppercase',
   description: 'text-md text-gray-600 font-light',
+  link: 'ml-2 text-blue-700 hover:underline',
 };
 
-const SummaryItem = ({ name, subText = null, description = null, link = false, internal = false }) => {
+const SummaryItem = ({ name, subText = null, description = null, link = false, demoLink = false, githubLink = false, internal = false }) => {
   let linkContent;
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
@@ -18,13 +19,30 @@ const SummaryItem = ({ name, subText = null, description = null, link = false, i
 
   return (
     <div className={classes.wrapper}>
-      <h3
-        className={`${classes.name} ${
-          link ? 'hover:underline hover:text-black' : ''
-        }`}
-      >
-        {link ? linkContent : name}
-      </h3>
+      <div className="flex items-center">
+        <h3 className={classes.name}>{name}</h3>
+        {link && (
+          <span className={classes.link}>
+            <a href={link} rel="noopener noreferrer">
+              [Company Website]
+            </a>
+          </span>
+        )}
+        {githubLink && (
+          <span className={classes.link}>
+            <a href={githubLink} rel="noopener noreferrer">
+              [Github]
+            </a>
+          </span>
+        )}
+        {demoLink && (
+          <span className={classes.link}>
+            <a href={demoLink} rel="noopener noreferrer">
+              [Demo]
+            </a>
+          </span>
+        )}
+      </div>
       <span className={classes.subText}>{subText}</span>
       <p className={classes.description}>{description}</p>
     </div>

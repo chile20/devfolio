@@ -47,12 +47,15 @@ export const pageQuery = graphql`
         author
         github
         linkedin
+        behance
         resume
         projects {
           name
           subText
           description
           link
+          demoLink
+          githubLink
         }
         experience {
           name

@@ -24,14 +24,7 @@ const SummaryItem = ({ name, subText = null, description = null, link = false, d
         {link && (
           <span className={classes.link}>
             <a href={link} rel="noopener noreferrer">
-              [Company Website]
-            </a>
-          </span>
-        )}
-        {githubLink && (
-          <span className={classes.link}>
-            <a href={githubLink} rel="noopener noreferrer">
-              [Source Code]
+              [Company Site]
             </a>
           </span>
         )}
@@ -39,6 +32,13 @@ const SummaryItem = ({ name, subText = null, description = null, link = false, d
           <span className={classes.link}>
             <a href={demoLink} rel="noopener noreferrer">
               [Demo]
+            </a>
+          </span>
+        )}
+        {githubLink && (
+          <span className={classes.link}>
+            <a href={githubLink} rel="noopener noreferrer">
+              [Repo]
             </a>
           </span>
         )}

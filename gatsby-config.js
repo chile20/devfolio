@@ -15,35 +15,28 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/chile20/`,
     // Optional: Resume download
-    resume: `https://drive.google.com/uc?export=download&id=1zyHbkTWiE6LFJFw_smqnTdW4QkfkiSTZ`,
+    resume: `https://drive.google.com/file/d/1zyHbkTWiE6LFJFw_smqnTdW4QkfkiSTZ/view`,
     // Optional: Behance account URL
     behance: `https://www.behance.net/chilele`,
     // Content of the About Me section
     about: 
-    `Hello, I’m Chi (pronounced /chEE/). I’m a Software Engineer with 3 years of experience specializing in front-end development, backed by a strong foundation in UI/UX design and Human-Computer Interaction. I’m detail-oriented, quick to learn new technologies, and passionate about building scalable, user-friendly solutions that prioritize accessibility. In my free time, I enjoy reading and playing video games.`,
+    `Hello, I’m Chi (pronounced /chEE/). I’m a Software Engineer with two years of experience in Web Development and another two in HCI/UI & UX Design. While I work across the full stack, my expertise in HCI and UI/UX drives my focus on front-end development, where I bridge functionality with design to deliver intuitive user experiences. I’m detail-oriented, quick to adapt to new technologies, and passionate about building scalable, accessible solutions. Outside of work, I enjoy reading and playing video games.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'CSU Student Success Dashboard',
-        subText: 'PHP (Laravel) | RESTful APIs | JavaScript (jQuery, Highcharts) | Bootstrap | Meilisearch | MySQL',
+        subText: 'PHP (Laravel) | RESTful APIs | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | Meilisearch | MySQL',
         description: 
           'A private dashboard solution used by educators across 23 CSU campuses and partner instituitions across the U.S. to identify achievement gaps and promote equity in student outcomes.',
         demoLink: 'https://public.dashboards.calstate.edu/csu-by-the-numbers/historical-grad-rates#',
       },
       {
         name: 'AI Resume Job Matcher',
-        subText: 'Python (Flask) | TailwindCSS | OpenAI API',
+        subText: 'Python (Flask) | HTML/CSS (TailwindCSS) | OpenAI API',
         description:
           'A web-based tool that uses AI to help users tailor their resumes to specific job description. It was incorporated into employer-led meetings to demonstrate the potential of AI-driven solutions.',
         githubLink: 'https://github.com/chile20/resume-job-matcher',
         demoLink: 'https://resume-matcher-ai-chile-7293abcc.koyeb.app/'
-      },
-      {
-        name: 'Info Crawler and Search Engine',
-        subText: 'Python (scikit-learn, scipy, panda, other Python libraries) | MongoDB',
-        description:
-          'A CLI-based search engine featuring a custom-built web crawler, efficient indexing, and a robust querying system. Built with advanced Python libraries and a NoSQL database for best performance.',
-        githubLink: 'https://github.com/kennysantanu/Web-Crawler-Search-Engine',
       },
       {
         name: 'Crochet Counter App',
@@ -51,6 +44,13 @@ module.exports = {
         description:
           'A user-friendly Android application designed to help crocheters keep track of their progress by incrementing patterns and managing projects efficiently. Built with feedback from crochet communities on Reddit.',
         githubLink: 'https://github.com/chile20/crochet-app',
+      },
+      {
+        name: 'Info Crawler and Search Engine',
+        subText: 'Python (scikit-learn, scipy, panda, other Python libraries) | MongoDB',
+        description:
+          'A CLI-based search engine featuring a custom-built web crawler, efficient indexing, and a robust querying system. Built with advanced Python libraries and a NoSQL database for best performance.',
+        githubLink: 'https://github.com/kennysantanu/Web-Crawler-Search-Engine',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -76,16 +76,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'PHP, Dart, Java, Python, JavaScript, HTML/CSS, Laravel, Blade, Flutter, React, Node.js, Flask, Highcharts.js, Meilisearch, TailwindCSS',
+          'HTML/CSS (Bootstrap, TailwindCSS, Sass), JavaScript (React, Node.js, jQuery, Highcharts.js), TypeScript, PHP (Laravel, Blade), Dart (Flutter), Python, Meilisearch}',
       },
       {
         name: 'Databases',
-        description: 'SQL (PostgreSQL, MySQL), NoSQL (MongoDB)',
+        description: 'SQL (PostgreSQL, MySQL), NoSQL (MongoDB, Flutter Hive)',
       },
       {
         name: 'Others',
         description:
-          'Agile/Scrum, Git, Docker, Jira, BitBucket, Figma, Sketch, Postman, VS Code, PyCharm, IntelliJ, PhpStorm',
+          'Agile/Scrum, Git (GitHub, Bitbucket), Docker, Jira, Trello, Design Tools (Figma, Sketch), Zeplin, API Development & Testing (GraphQL, OpenAPI, Postman), IDEs (VS Code, PyCharm, PhpStorm)',
       },
     ],
   },

@@ -25,7 +25,7 @@ module.exports = {
     projects: [
       {
         name: 'CSU Student Success Dashboard',
-        subText: 'PHP (Laravel) | RESTful APIs | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | Meilisearch | MySQL',
+        subText: 'PHP (Laravel) | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | Meilisearch | MySQL',
         description: 
           'A private dashboard solution used by educators across 23 CSU campuses and partner instituitions across the U.S. to identify achievement gaps and promote equity in student outcomes.',
         demoLink: 'https://public.dashboards.calstate.edu/csu-by-the-numbers/historical-grad-rates#',

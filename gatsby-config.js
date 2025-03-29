@@ -20,14 +20,14 @@ module.exports = {
     behance: `https://www.behance.net/chilele`,
     // Content of the About Me section
     about: 
-    `Hello, I’m Chi (pronounced /chEE/). I’m a Software Engineer with two years of experience in Web Development and another two in HCI/UI & UX Design. While I work across the full stack, my expertise in HCI and UI/UX drives my focus on front-end development, where I bridge functionality with design to deliver intuitive user experiences. I’m detail-oriented, quick to adapt to new technologies, and passionate about building scalable, accessible solutions. Outside of work, I enjoy reading and playing video games.`,
+    `Hello. I’m a Front-end UI/UX Developer with two years of experience in Full-stack Web Development and 3+ years in UI & UX Design and HCI research. While I work across the full stack, my expertise in HCI and UI/UX drives my focus on front-end development where I bridge functionality with design to deliver intuitive user experiences. I’m detail-oriented, quick to adapt to new technologies, and passionate about building scalable, accessible solutions. Outside of work, I enjoy reading and playing video games.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'CSU Student Success Dashboard',
         subText: 'PHP (Laravel) | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | Meilisearch | MySQL',
         description: 
-          'A private dashboard solution used by educators across 23 CSU campuses and partner instituitions across the U.S. to identify achievement gaps and promote equity in student outcomes.',
+          'A private dashboard used by 23 CSU campuses and partner institutions across the U.S. It helps educators compare how different student groups are performing using charts and stats, so they can make informed decisions to better support students.',
         demoLink: 'https://public.dashboards.calstate.edu/csu-by-the-numbers/historical-grad-rates#',
       },
       {
@@ -52,12 +52,19 @@ module.exports = {
           'A CLI-based search engine featuring a custom-built web crawler, efficient indexing, and a robust querying system. Built with advanced Python libraries and a NoSQL database for best performance.',
         githubLink: 'https://github.com/kennysantanu/Web-Crawler-Search-Engine',
       },
+      {
+        name: 'UI/UX Design Portfolio',
+        subText: 'HTML/CSS, ReactJS, GatsbyJS, TailwindCSS',
+        description:
+          'A single static website with dynamic light/dark theme to show case my UI/UX design work, leveraging GatsbyJS for speed and TailwindCSS for a modern, responsive UI.',
+        demoLink: 'https://chile20.github.io/portfolio/'
+      },      
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
         name: 'Full-Stack Developer at CSU, Office of Chancellor',
-        subText: 'Full-time during school breaks & part-time during school, Jan 2023 - Dec 2024 (2 yr)',
+        subText: 'Contract, Jan 2023 - Dec 2024 (2 yr, 2000+ hours in total)',
         link: 'https://www.calstate.edu/',
       },
       {

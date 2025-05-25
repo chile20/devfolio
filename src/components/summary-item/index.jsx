@@ -6,7 +6,7 @@ const classes = {
   name: 'font-semibold text-gray-900',
   subText: 'font-semibold text-sm text-blue-700 uppercase',
   description: 'text-md text-gray-600 font-light',
-  link: 'ml-2 font-semibold text-blue-700 hover:underline',
+  link: 'ml-2 font-semibold text-orange-500 hover:underline',
 };
 
 const SummaryItem = ({ name, subText = null, description = null, link = false, demoLink = false, githubLink = false, internal = false }) => {
@@ -21,13 +21,13 @@ const SummaryItem = ({ name, subText = null, description = null, link = false, d
     <div className={classes.wrapper}>
       <div className="flex items-center">
         <h3 className={classes.name}>{name}</h3>
-        {link && (
+        {/* {link && (
           <span className={classes.link}>
             <a href={link} rel="noopener noreferrer">
               [Company Site]
             </a>
           </span>
-        )}
+        )} */}
         {demoLink && (
           <span className={classes.link}>
             <a href={demoLink} rel="noopener noreferrer">
@@ -38,7 +38,7 @@ const SummaryItem = ({ name, subText = null, description = null, link = false, d
         {githubLink && (
           <span className={classes.link}>
             <a href={githubLink} rel="noopener noreferrer">
-              [Repo]
+              [Source]
             </a>
           </span>
         )}

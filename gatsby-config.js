@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Chi Le',
     // Main Site Title
-    title: `Chi Le | Software Engineer`,
+    title: `Chi Le | Design & Develop`,
     // Description that goes under your name in main bio
-    description: `Software Engineer | Long Beach, California | Authorized to work in the U.S without sponsorship`,
+    description: `Long Beach, California | Authorized to work in the U.S without sponsorship`,
     // Optional: Twitter account handle
     author: `@rfitzio`,
     // Optional: Github account URL
@@ -20,21 +20,28 @@ module.exports = {
     behance: `https://www.behance.net/chilele`,
     // Content of the About Me section
     about: 
-    `Hello. I’m a Front-end UI/UX Developer with two years of experience in Full-stack Web Development and 3+ years in UI & UX Design and HCI research. While I work across the full stack, my expertise in HCI and UI/UX drives my focus on front-end development where I bridge functionality with design to deliver intuitive user experiences. I’m detail-oriented, quick to adapt to new technologies, and passionate about building scalable, accessible solutions. Outside of work, I enjoy reading and playing video games.`,
+    `Hi! I'm a developer and designer with 2 years of full-stack development experience and over 2 years in UI/UX and HCI design. My combined background in development and design allows me to bridge the gap between creative vision and technical feasibility, helping teams create solutions that are both user-friendly and practical to develop. When I'm not coding or designing, you'll find me reading or playing video games with my cat Miso.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'CSU Student Success Dashboard',
-        subText: 'PHP (Laravel) | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | Meilisearch | MySQL',
+        subText: 'PHP (Laravel) | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | Search Engine | MySQL',
         description: 
-          'A private dashboard used by 23 CSU campuses and partner institutions across the U.S. It helps educators compare how different student groups are performing using charts and stats, so they can make informed decisions to better support students.',
-        demoLink: 'https://public.dashboards.calstate.edu/csu-by-the-numbers/historical-grad-rates#',
+          'A data dashboard used by 23 CSU campuses to track student performance across different groups. Helps educators spot trends and make decisions that improve student success through clear charts and statistics.',
+        demoLink: 'https://public.dashboards.calstate.edu/csu-by-the-numbers/historical-grad-rates',
+      },
+      {
+        name: 'High School Success Partnership Dashboard',
+        subText: 'PHP (Laravel) | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | MySQL',
+        description: 
+          'A data platform that tracks student pathways from California high schools to CSU campuses. Helps schools prepare students for university success by visualizing enrollment patterns and academic journeys.',
+        demoLink: 'https://partners.dashboards.calstate.edu/search/hs',
       },
       {
         name: 'AI Resume Job Matcher',
         subText: 'Python (Flask) | HTML/CSS (TailwindCSS) | OpenAI API',
         description:
-          'A web-based tool that uses AI to help users tailor their resumes to specific job description. It was incorporated into employer-led meetings to demonstrate the potential of AI-driven solutions.',
+          'An AI-powered tool that matches resumes to job descriptions and suggests improvements. Presented to employers to showcase how AI can streamline hiring and help candidates land better jobs.',
         githubLink: 'https://github.com/chile20/resume-job-matcher',
         demoLink: 'https://resume-matcher-ai-chile-7293abcc.koyeb.app/'
       },
@@ -42,21 +49,21 @@ module.exports = {
         name: 'Crochet Counter App',
         subText: 'Dart (Flutter) | Flutter Hive',
         description:
-          'A user-friendly Android application designed to help crocheters keep track of their progress by incrementing patterns and managing projects efficiently. Built with feedback from crochet communities on Reddit.',
+          'A mobile app that helps crocheters track their patterns and manage multiple projects. Built with real feedback from Reddit crochet communities to solve actual user problems.',
         githubLink: 'https://github.com/chile20/crochet-app',
       },
       {
         name: 'Info Crawler and Search Engine',
         subText: 'Python (scikit-learn, scipy, panda, other Python libraries) | MongoDB',
         description:
-          'A CLI-based search engine featuring a custom-built web crawler, efficient indexing, and a robust querying system. Built with advanced Python libraries and a NoSQL database for best performance.',
+          'A complete search engine custom web crawling, smart indexing, and fast search capabilities. Handles large datasets efficiently using advanced Python libraries.',
         githubLink: 'https://github.com/kennysantanu/Web-Crawler-Search-Engine',
       },
       {
         name: 'UI/UX Design Portfolio',
         subText: 'HTML/CSS, ReactJS, GatsbyJS, TailwindCSS',
         description:
-          'A single static website with dynamic light/dark theme to show case my UI/UX design work, leveraging GatsbyJS for speed and TailwindCSS for a modern, responsive UI.',
+          'A fast-loading portfolio site with smooth light/dark mode switching that showcases my design work. Built for speed and user experience using modern web technologies.',
         demoLink: 'https://chile20.github.io/portfolio/'
       },      
     ],
@@ -64,7 +71,7 @@ module.exports = {
     experience: [
       {
         name: 'Full-Stack Developer at CSU, Office of Chancellor',
-        subText: 'Contract, Jan 2023 - Dec 2024 (2 yr, 2000+ hours in total)',
+        subText: 'Contract, Jan 2023 - Dec 2024 (2 yr)',
         link: 'https://www.calstate.edu/',
       },
       {
@@ -83,16 +90,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'HTML/CSS (Bootstrap, TailwindCSS, Sass), JavaScript (React, Node.js, jQuery, Highcharts.js), TypeScript, PHP (Laravel, Blade), Dart (Flutter), Python, Meilisearch}',
+          'JavaScript, TypeScript, React, Node.js, PHP, Laravel, Python, Java, Dart, Flutter, HTML5, CSS3, Bootstrap, TailwindCSS, Sass, jQuery, Highcharts.js',
       },
       {
-        name: 'Databases',
-        description: 'SQL (PostgreSQL, MySQL), NoSQL (MongoDB, Flutter Hive)',
+        name: 'Databases & APIs',
+        description: 'PostgreSQL, MySQL, MongoDB, Hive, GraphQL, OpenAPI, REST, Meilisearch',
       },
       {
-        name: 'Others',
+        name: 'Tools & Workflow',
         description:
-          'Agile/Scrum, Git (GitHub, Bitbucket), Docker, Jira, Trello, Design Tools (Figma, Sketch), Zeplin, API Development & Testing (GraphQL, OpenAPI, Postman), IDEs (VS Code, PyCharm, PhpStorm)',
+          'Git, GitHub, Bitbucket, Docker, Maven, Gradle, Agile/Scrum, Jira, Trello, VS Code, IntelliJ IDEA, PyCharm, PhpStorm, Postman, Figma, Sketch, Zeplin',
       },
     ],
   },
@@ -151,8 +158,8 @@ module.exports = {
         name: `devfolio`,
         short_name: `devfolio`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`, // This color appears on mobile
+        background_color: `#5A3B5D`,
+        theme_color: `#5A3B5D`, // This color appears on mobile
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
       },

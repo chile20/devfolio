@@ -21,7 +21,7 @@ const SectionProjects = ({ projects }) => {
       ))}
 
 <a href="https://www.behance.net/chilele"
-   class="font-semibold text-gray-900 hover:underline inline-flex items-center">
+   class="font-semibold text-orange-500 hover:underline inline-flex items-center">
   Check out my professional UI/UX projects on Behance <span class="ml-1">→</span>
 </a>
 

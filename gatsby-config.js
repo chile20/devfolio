@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Chi Le | Design & Develop`,
     // Description that goes under your name in main bio
-    description: `Long Beach, California | Authorized to work in the U.S without sponsorship`,
+    description: `Long Beach, California`,
     // Optional: Twitter account handle
     author: `@rfitzio`,
     // Optional: Github account URL
@@ -20,23 +20,23 @@ module.exports = {
     behance: `https://www.behance.net/chilele`,
     // Content of the About Me section
     about: 
-    `Hi! I'm a developer and designer with 2 years of full-stack development experience and over 2 years in UI/UX and HCI design. My combined background in development and design allows me to bridge the gap between creative vision and technical feasibility, helping teams create solutions that are both user-friendly and practical to develop. When I'm not coding or designing, you'll find me reading or playing video games with my cat Miso.`,
+    `Hi! I'm a developer and designer with 2 years of full-stack development experience and over 2 years of UI/UX and HCI design. My combined background in development and design allows me to bridge the gap between creative vision and technical feasibility, helping teams create solutions that are both user-friendly and practical to develop. When I'm not coding or designing, you'll find me reading or playing with my cat Miso.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
-      {
-        name: 'CSU Student Success Dashboard',
-        subText: 'PHP (Laravel) | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | Search Engine | MySQL',
-        description: 
-          'A data dashboard used by 23 CSU campuses to track student performance across different groups. Helps educators spot trends and make decisions that improve student success through clear charts and statistics.',
-        demoLink: 'https://public.dashboards.calstate.edu/csu-by-the-numbers/historical-grad-rates',
-      },
-      {
-        name: 'High School Success Partnership Dashboard',
-        subText: 'PHP (Laravel) | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | MySQL',
-        description: 
-          'A data platform that tracks student pathways from California high schools to CSU campuses. Helps schools prepare students for university success by visualizing enrollment patterns and academic journeys.',
-        demoLink: 'https://partners.dashboards.calstate.edu/search/hs',
-      },
+      // {
+      //   name: 'CSU Student Success Dashboard',
+      //   subText: 'PHP (Laravel) | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | Search Engine | MySQL',
+      //   description: 
+      //     'A data dashboard used by 23 CSU campuses to track student performance across different groups. Helps educators spot trends and make decisions that improve student success through clear charts and statistics.',
+      //   demoLink: 'https://public.dashboards.calstate.edu/csu-by-the-numbers/historical-grad-rates',
+      // },
+      // {
+      //   name: 'High School Success Partnership Dashboard',
+      //   subText: 'PHP (Laravel) | JavaScript (jQuery, Highcharts) | HTML/CSS (Sass, Bootstrap) | MySQL',
+      //   description: 
+      //     'A data platform that tracks student pathways from California high schools to CSU campuses. Helps schools prepare students for university success by visualizing enrollment patterns and academic journeys.',
+      //   demoLink: 'https://partners.dashboards.calstate.edu/search/hs',
+      // },
       {
         name: 'AI Resume Job Matcher',
         subText: 'Python (Flask) | HTML/CSS (TailwindCSS) | OpenAI API',
@@ -45,43 +45,53 @@ module.exports = {
         githubLink: 'https://github.com/chile20/resume-job-matcher',
         demoLink: 'https://resume-matcher-ai-chile-7293abcc.koyeb.app/'
       },
-      {
-        name: 'Crochet Counter App',
-        subText: 'Dart (Flutter) | Flutter Hive',
-        description:
-          'A mobile app that helps crocheters track their patterns and manage multiple projects. Built with real feedback from Reddit crochet communities to solve actual user problems.',
-        githubLink: 'https://github.com/chile20/crochet-app',
-      },
-      {
-        name: 'Info Crawler and Search Engine',
-        subText: 'Python (scikit-learn, scipy, panda, other Python libraries) | MongoDB',
-        description:
-          'A complete search engine custom web crawling, smart indexing, and fast search capabilities. Handles large datasets efficiently using advanced Python libraries.',
-        githubLink: 'https://github.com/kennysantanu/Web-Crawler-Search-Engine',
-      },
-      {
-        name: 'UI/UX Design Portfolio',
-        subText: 'HTML/CSS, ReactJS, GatsbyJS, TailwindCSS',
-        description:
-          'A fast-loading portfolio site with smooth light/dark mode switching that showcases my design work. Built for speed and user experience using modern web technologies.',
-        demoLink: 'https://chile20.github.io/portfolio/'
-      },      
+      // {
+      //   name: 'Crochet Counter App',
+      //   subText: 'Dart (Flutter) | Flutter Hive',
+      //   description:
+      //     'A mobile app that helps crocheters track their patterns and manage multiple projects. Built with real feedback from Reddit crochet communities to solve actual user problems.',
+      //   githubLink: 'https://github.com/chile20/crochet-app',
+      // },
+      // {
+      //   name: 'Info Crawler and Search Engine',
+      //   subText: 'Python (scikit-learn, scipy, panda, other Python libraries) | MongoDB',
+      //   description:
+      //     'A complete search engine custom web crawling, smart indexing, and fast search capabilities. Handles large datasets efficiently using advanced Python libraries.',
+      //   githubLink: 'https://github.com/kennysantanu/Web-Crawler-Search-Engine',
+      // },
+      // {
+      //   name: 'UI/UX Design Portfolio',
+      //   subText: 'HTML/CSS, ReactJS, GatsbyJS, TailwindCSS',
+      //   description:
+      //     'A fast-loading portfolio site with smooth light/dark mode switching that showcases my design work. Built for speed and user experience using modern web technologies.',
+      //   demoLink: 'https://chile20.github.io/portfolio/'
+      // },      
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'UI/UX Developer (Freelance)',
+        subText: 'Self-Employed, March 2025 - Present',
+        link: '',
+      },
+      {
         name: 'Full-Stack Developer at CSU, Office of Chancellor',
-        subText: 'Contract, Jan 2023 - Dec 2024 (2 yr)',
+        subText: 'Contract, Jan 2023 - Dec 2024',
         link: 'https://www.calstate.edu/',
       },
       {
         name: 'HCI Student Researcher at Hapii Lab',
-        subText: 'Part-time, Jan 2024 - Dec 2024 (1 yr)',
-        link: 'https://hapii-lab.github.io/',
+        subText: 'Part-time, Jan 2024 - Dec 2024',
+        link: '',
       },
+      // {
+      //   name: 'UI/UX Designer (Freelance)',
+      //   subText: 'Self-Employed, Jan 2024 - Dec 2024',
+      //   link: 'https://hapii-lab.github.io/',
+      // },
       {
         name: 'Product Designer at Codelink',
-        subText: 'Full-time, Mar 2018 - Apr 2019 (1 yr 1 mo)',
+        subText: 'Full-time, Mar 2018 - Apr 2019',
         link: 'https://www.codelink.io/',
       },
     ],
@@ -90,16 +100,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript, TypeScript, React, Node.js, PHP, Laravel, Python, Java, Dart, Flutter, HTML5, CSS3, Bootstrap, TailwindCSS, Sass, jQuery, Highcharts.js',
+          'Java, C++, Python, JavaScript, Node.js, PHP, Laravel, Dart, Flutter, HTML5, CSS3, Bootstrap, TailwindCSS, Sass, jQuery',
       },
       {
-        name: 'Databases & APIs',
-        description: 'PostgreSQL, MySQL, MongoDB, Hive, GraphQL, OpenAPI, REST, Meilisearch',
+        name: 'Databases & Integrations',
+        description: 'SQL databases (MySQL, PostgreSQL), NoSQL databases (MongoDB), OpenAPI, REST API',
       },
       {
         name: 'Tools & Workflow',
         description:
-          'Git, GitHub, Bitbucket, Docker, Maven, Gradle, Agile/Scrum, Jira, Trello, VS Code, IntelliJ IDEA, PyCharm, PhpStorm, Postman, Figma, Sketch, Zeplin',
+          'Version Control (Git), Containerization (Docker), Agile Methodologies, Project Management (Jira), API Testing (Postman), Design Collaboration (Figma), Accessibility Standards (WCAG 2.1), User Research & Testing, Browser Developer Tools, Code Debugging',
       },
     ],
   },
